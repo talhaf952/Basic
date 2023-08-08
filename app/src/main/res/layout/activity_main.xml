@@ -4,17 +4,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#0CB2C5"
+    android:background="#E4FFFFFF"
     tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/textView15"
         android:layout_width="122dp"
         android:layout_height="100dp"
-        android:background="#19B2F6"
+        android:background="#FFFFFFFF"
+        android:paddingTop="35dp"
         android:singleLine="false"
         android:text="Schedule"
         android:textAlignment="center"
+        android:textColor="#FF000000"
         tools:layout_editor_absoluteX="233dp"
         tools:layout_editor_absoluteY="484dp" />
 
@@ -22,9 +24,11 @@
         android:id="@+id/textView14"
         android:layout_width="126dp"
         android:layout_height="102dp"
-        android:background="#19B2F6"
+        android:background="#FFFFFFFF"
+        android:paddingTop="35dp"
         android:text="Interests"
         android:textAlignment="center"
+        android:textColor="#000000"
         tools:layout_editor_absoluteX="49dp"
         tools:layout_editor_absoluteY="484dp" />
 
@@ -32,9 +36,11 @@
         android:id="@+id/textView13"
         android:layout_width="126dp"
         android:layout_height="102dp"
-        android:background="#19B2F6"
+        android:background="#FFFFFFFF"
+        android:paddingTop="35dp"
         android:text="Projects"
         android:textAlignment="center"
+        android:textColor="#FF000000"
         tools:layout_editor_absoluteX="233dp"
         tools:layout_editor_absoluteY="327dp" />
 
@@ -58,9 +64,12 @@
 
     <TextView
         android:id="@+id/textView4"
-        android:layout_width="247dp"
-        android:layout_height="23dp"
-        android:background="#FFEB3B"
+        android:layout_width="249dp"
+        android:layout_height="28dp"
+        android:background="#FFFFFF"
+        android:paddingLeft="2dp"
+        android:shadowColor="#042DFA"
+        android:shadowRadius="8"
         android:text="Name : Muhammad Talha Farooq"
         android:textColor="#27772A"
         android:textColorHighlight="#FF0000"
@@ -75,7 +84,10 @@
         android:id="@+id/textView5"
         android:layout_width="250dp"
         android:layout_height="27dp"
-        android:background="#FFEB3B"
+        android:background="#FFFFFFFF"
+        android:paddingLeft="2dp"
+        android:shadowColor="#042DFA"
+        android:shadowRadius="8"
         android:text="University : Punjab University Lahore"
         android:textColor="#FB0559"
         app:layout_constraintEnd_toEndOf="parent"
@@ -85,9 +97,12 @@
 
     <TextView
         android:id="@+id/textView6"
-        android:layout_width="248dp"
-        android:layout_height="21dp"
-        android:background="#FFEB3B"
+        android:layout_width="249dp"
+        android:layout_height="30dp"
+        android:background="#FFFFFFFF"
+        android:paddingLeft="2dp"
+        android:shadowColor="#042DFA"
+        android:shadowRadius="8"
         android:text="Course : Android App Development"
         android:textColor="#0027FF"
         app:layout_constraintEnd_toEndOf="parent"
@@ -97,22 +112,24 @@
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="416dp"
-        android:layout_height="25dp"
+        android:layout_width="405dp"
+        android:layout_height="27dp"
         android:background="#00E676"
         android:text="Contact Us: Muhammad Talha 03084266179"
         android:textAlignment="center"
         android:textColor="#070707"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="702dp" />
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="859dp" />
 
     <TextView
         android:id="@+id/textView7"
         android:layout_width="126dp"
         android:layout_height="102dp"
-        android:background="#19B2F6"
+        android:background="#FFFFFF"
+        android:paddingTop="35dp"
         android:text="Attendance"
         android:textAlignment="center"
+        android:textColor="#FF000000"
         tools:layout_editor_absoluteX="49dp"
         tools:layout_editor_absoluteY="177dp" />
 
@@ -120,9 +137,11 @@
         android:id="@+id/textView12"
         android:layout_width="126dp"
         android:layout_height="102dp"
-        android:background="#19B2F6"
+        android:background="#FFFFFFFF"
+        android:paddingTop="35dp"
         android:text="Semester"
         android:textAlignment="center"
+        android:textColor="#FF000000"
         tools:layout_editor_absoluteX="49dp"
         tools:layout_editor_absoluteY="327dp" />
 
@@ -130,9 +149,11 @@
         android:id="@+id/textView11"
         android:layout_width="126dp"
         android:layout_height="102dp"
-        android:background="#19B2F6"
+        android:background="#FFFFFFFF"
+        android:paddingTop="35dp"
         android:text="CGPA"
         android:textAlignment="center"
+        android:textColor="#FF000000"
         tools:layout_editor_absoluteX="233dp"
         tools:layout_editor_absoluteY="177dp" />
 
