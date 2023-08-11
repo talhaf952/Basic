@@ -35,6 +35,19 @@
         tools:layout_editor_absoluteY="484dp" />
 
     <TextView
+        android:id="@+id/textView2"
+        android:layout_width="126dp"
+        android:layout_height="102dp"
+        android:background="@drawable/rounded_border"
+        android:paddingTop="35dp"
+        android:text="Interests"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="49dp"
+        tools:layout_editor_absoluteY="484dp" />
+
+    <TextView
         android:id="@+id/textView13"
         android:layout_width="126dp"
         android:layout_height="102dp"
@@ -51,7 +64,7 @@
         android:id="@+id/textView"
         android:layout_width="416dp"
         android:layout_height="37dp"
-        android:background="#FFEB3B"
+        android:background="@drawable/outline"
         android:backgroundTint="#FFEB3B"
         android:text="بسم الله الرحمن الرحيم     "
         android:textAlignment="center"
@@ -67,9 +80,9 @@
 
     <TextView
         android:id="@+id/textView4"
-        android:layout_width="249dp"
+        android:layout_width="250dp"
         android:layout_height="28dp"
-        android:background="#FFFFFF"
+        android:background="@drawable/rounded_border"
         android:paddingLeft="2dp"
         android:shadowColor="#ff000000"
         android:shadowRadius="3"
@@ -85,8 +98,8 @@
     <TextView
         android:id="@+id/textView5"
         android:layout_width="250dp"
-        android:layout_height="27dp"
-        android:background="#FFFFFFFF"
+        android:layout_height="28dp"
+        android:background="@drawable/rounded_border"
         android:paddingLeft="2dp"
         android:shadowColor="#ff000000"
         android:shadowRadius="3"
@@ -94,15 +107,16 @@
         android:textAlignment="center"
         android:textColor="#ff000000"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintHorizontal_bias="0.509"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="80dp" />
+        tools:layout_editor_absoluteY="87dp"
+        />
 
     <TextView
         android:id="@+id/textView6"
-        android:layout_width="249dp"
-        android:layout_height="30dp"
-        android:background="#FFFFFFFF"
+        android:layout_width="250dp"
+        android:layout_height="28dp"
+        android:background="@drawable/rounded_border"
         android:paddingLeft="2dp"
         android:shadowColor="#ff000000"
         android:shadowRadius="3"
