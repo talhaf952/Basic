@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#E1D9D1"
+    android:background="#3778c2"
     tools:context=".MainActivity">
 
     <TextView
@@ -65,7 +65,6 @@
         android:layout_width="416dp"
         android:layout_height="37dp"
         android:background="@drawable/outline"
-        android:backgroundTint="#FFEB3B"
         android:text="بسم الله الرحمن الرحيم     "
         android:textAlignment="center"
         android:textAllCaps="true"
@@ -109,8 +108,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.509"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="87dp"
-        />
+        tools:layout_editor_absoluteY="87dp" />
 
     <TextView
         android:id="@+id/textView6"
@@ -171,7 +169,7 @@
         android:id="@+id/textView3"
         android:layout_width="421dp"
         android:layout_height="33dp"
-        android:background="#FFEB3B"
+        android:background="@drawable/outline"
         android:text="Contact Us : Muhammad Talha 03084266179"
         android:textAlignment="center"
         android:textAllCaps="true"
